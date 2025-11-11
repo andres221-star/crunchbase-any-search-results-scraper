@@ -1,0 +1,5 @@
+{
+  "cookie": "your_session_cookie_here",
+  "output_file": "output.json",
+  "base_url": "https://www.crunchbase.com/search"
+}
