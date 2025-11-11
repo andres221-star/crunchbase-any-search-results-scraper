@@ -1,0 +1,13 @@
+[
+    {
+        "company_name": "Example Corp",
+        "funding_round": "Series C",
+        "acquisition": "Acquired by Tech Industries",
+        "people": [
+            {
+                "name": "John Doe",
+                "role": "CEO"
+            }
+        ]
+    }
+]
